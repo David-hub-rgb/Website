@@ -1,0 +1,60 @@
+html {
+	background-color: silver;
+}
+.project-card {
+	font-family: Arial, sans-serif;
+	background-color: white;
+	color: #555555;
+	font-size: 100%;
+	margin-left: .25em;
+}
+
+#nav_header ul {
+	display: flex;
+	justify-content: center;
+	background: gray;
+	padding: 20px;
+	list-style:none;
+	margin-left: 0em;
+}
+
+#nav_header li {
+	width: 100px;
+	margin-bottom: .5em;
+	border: 25px solid silver;
+}
+
+#nav_header li a {
+	font-family: "Times New Roman", Times, sans-serif;
+	display: flex;
+	color: white;
+	padding: .5em 0 .5em 1.25em;
+	text-decoration: none;
+	font-weight: bold;
+	
+}
+
+#nav_header a.current {
+	background-color: silver;
+}
+
+h1 {
+	font-size: 300%;
+}
+
+h2 {
+	font-size: 200%;
+}
+
+#nav_footer ul {
+	display: flex;
+	color: maroon;
+	list-style: none;
+	text-decoration: none;
+}
+
+#nav_footer li {
+	display: flex;
+	color: maroon;
+	text-decoration: none;
+}
