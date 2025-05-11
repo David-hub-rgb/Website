@@ -1,0 +1,53 @@
+/*Home Page*/
+.main {
+	flex:1;
+}
+a {
+	color: #000000;
+	text-decoration: none;
+}
+
+a:hover {
+	text-decoration: underline;
+}
+
+h1 {
+	font-size: 300%;
+}
+
+h2 {
+	font-size: 200%;
+}
+
+.introduction {
+	display: flex;
+	align-items: center;
+	gap: 25px;
+	flex-wrap: wrap;
+	background-color: gray;
+}
+
+.mypicture { /**/
+	float: right; /* use of float element*/
+	width: 10%;
+	display: flex;
+	margin: 0 auto;
+	overflow: hidden;
+}
+
+@media (max-width: 768px) {
+  .mypicture {
+    grid-template-columns: 1fr; /* responsive design to different screen */
+  }
+}
+
+.About_me {
+	background-color: white;
+}
+
+/*Projects Page and Contact Page*/
+
+.project, .contact {
+	background: white;
+	
+}

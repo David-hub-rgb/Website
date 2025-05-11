@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+
+<html lang="en">
+	<head>
+		<!-- Use of metadata -->
+		<meta charset="UTF-8" />
+		<meta name="author" content="David Diza" />
+		<meta data="viewport" content="width=device-width, initial-scale=1.0" />
+		<link rel="stylesheet" href="layout.css" /> <!-- Link to css file -->
+		<link rel="stylesheet" href="format.css" />
+		<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+		<title>My Portfolio</title>
+		
+	</head>
+	<body>
+		<header>
+			<nav id="nav_header"> <!-- Use of a grouping element -->
+				<ul>
+					<!-- references to other pages -->
+					<li><a href="index.html">Home</a></li>
+					<li><a href="projects.html">Projects</a></li>
+					<li><a href="Contact.html">Contact</a></li>
+				</ul>
+			</nav>
+			
+		</header>
+		<div class="wrapper">
+			<div class="main">
+				<section class="contact">
+					<h2>Appointment Me</h2>
+					<form action="#" method="post">
+						<label>Name:</label>
+						<input type="text" name="name" required />
+			
+						<label>Email:</label>
+						<input type="email" name="email" required />
+			
+						<label>Subject:</label>
+						<input type="text" name="subject" />
+			
+						<label>Message:</label>
+						<textarea name="name" required ></textarea>
+			
+						<button type="submit">Submit</button>
+						<button type="reset">Reset</button>
+					</form>
+				</section>
+			</div>
+			<footer>
+				<p>&copy; 2025 David Diza. All right reserved.</p>
+			</footer>
+		</div>
+	</body>
+</html>
